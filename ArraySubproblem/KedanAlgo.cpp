@@ -15,7 +15,7 @@ public:
             sum += arr[i];  
             max_sum = max(max_sum, sum);  
 
-            
+            //  If sum is lesser than 0 then 
             if (sum < 0) {
                 sum = 0;
             }
@@ -32,3 +32,7 @@ int main() {
 
     return 0;
 }
+
+
+//  Time complexity of this code is O(n) and space complexity is O(1) .
+
